@@ -1,0 +1,6 @@
+Streamlit is an open-source app framework that allows engineers to quickly build highly interactive web applications around their data, machine learning models, and more.
+It’s designed specifically for machine learning engineers and data science teams.
+Streamlit turns data scripts into shareable web apps in minutes, all in pure Python.
+Adding a widget is as simple as declaring a variable, and there’s no need to write a backend, define routes, handle HTTP requests, or connect a frontend.
+Streamlit is compatible with major Python libraries such as scikit-learn, keras, PyTorch, latex, numpy, pandas, matplotlib, etc. It also allows you to deploy your apps directly from Streamlit for free
+Streamlit has been trusted by over 80% of Fortune 50 companies.
