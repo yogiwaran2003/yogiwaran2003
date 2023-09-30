@@ -1,3 +1,3 @@
 In this  app.py file i have created a custom made chatbot using langchain and streamlit.
 We can upload any kind of pdf in this chatbot and ask any questions like chatgpt but related to uploaded file.
-This can be very helpful for large PDF files where the pages are around  300-400 pages.Instead of reading that large file we can simply use this chatbot and ask any question.
+This can be very helpful for large PDF files where the pages are around  300-400 pages.Instead of reading that large file we can simply use this chatbot and ask any question
