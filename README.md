@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **yogeshs9284@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1DFr7o5ldYeTxiRw3imuctPBk8rxrS94A/view?usp=sharing](https://drive.google.com/file/d/1DFr7o5ldYeTxiRw3imuctPBk8rxrS94A/view?usp=sharing)
+- 📄 Know about my experiences [https://drive.google.com/file/d/1DFr7o5ldYeTxiRw3imuctPBk8rxrS94A/view?usp=sharing](https://drive.google.com/file/d/1xdXlKvxia4I3G27gixp-ncd_LO6jm8IW/view?usp=sharing)
 
 - ⚡ Fun fact **Iam Funny**
 
