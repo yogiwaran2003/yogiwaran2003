@@ -1,0 +1,38 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: microsentry-postgres
+    environment:
+      POSTGRES_DB: microsentry
+      POSTGRES_USER: microsentry
+      POSTGRES_PASSWORD: microsentry
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./backend
+    container_name: microsentry-backend
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/microsentry
+      SPRING_DATASOURCE_USERNAME: microsentry
+      SPRING_DATASOURCE_PASSWORD: microsentry
+      JWT_SECRET: dGhpc0lzQVN0cm9uZ0RlbW9TZWNyZXRLZXlGb3JNaWNyb1NlbnRyeQ==
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: microsentry-frontend
+    depends_on:
+      - backend
+    ports:
+      - "5173:5173"
+
+volumes:
+  postgres_data:
