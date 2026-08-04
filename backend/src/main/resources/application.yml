@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/microsentry}
+    username: ${SPRING_DATASOURCE_USERNAME:microsentry}
+    password: ${SPRING_DATASOURCE_PASSWORD:microsentry}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:dGhpc0lzQVN0cm9uZ0RlbW9TZWNyZXRLZXlGb3JNaWNyb1NlbnRyeQ==}
+    expiration-seconds: ${JWT_EXPIRATION_SECONDS:86400}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
